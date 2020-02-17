@@ -1,0 +1,14 @@
+public class Reverse
+{
+public static void main(String args[])
+{
+int num=432,rev=0,x;
+while(num!=0)
+{
+x=num%10;
+rev=rev*10+x;
+num=num/10;
+}
+System.out.println("reverse num "+rev);
+}
+}
