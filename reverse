@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class Reverse1
+{
+public static void main(String args[])
+{
+int num,rev=0,x;
+Scanner r = new Scanner(System.in);
+System.out.println("enter the number");
+num=r.nextInt();
+while(num!=0)
+{
+x=num%10;
+rev=rev*10+x;
+num=num/10;
+}
+System.out.println("reverse of the num"+rev);
+}
+}
