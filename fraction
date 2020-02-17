@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class Fraction
+{
+public static void main(String args[])
+{
+System.out.println("enter the value");
+Scanner s = new Scanner(System.in);
+double value=s.nextDouble();
+double fraction=value%1;
+double integer=value-fraction;
+System.out.println("orginal value" +value);
+System.out.println("fraction value" +fraction);
+System.out.println("integer value" +integer);
+}
+}
+ 
