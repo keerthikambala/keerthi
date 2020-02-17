@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class Sum1
+{
+public static void main(String args[])
+{
+int sum=0,num,i;
+Scanner s = new Scanner(System.in);
+System.out.println("enter the number");
+num=s.nextInt();
+for(i=0;i<num;i++)
+{
+if(i%2!=0)
+{
+sum=sum+i;
+}
+}
+System.out.println("the values"+sum);
+}
+}
