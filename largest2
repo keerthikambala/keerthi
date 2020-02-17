@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Largest
+{
+public static void main(String args[])
+{
+int x,y,z,temp,result;
+Scanner keer=new Scanner(System.in);
+System.out.println("enter x:");
+x=keer.nextInt();
+System.out.println("enter y");
+y=keer.nextInt();
+System.out.println("enter z");
+z=keer.nextInt();
+
+temp=x>y ? x:y;
+result=z>temp ? z:temp;
+System.out.println("largest num is:"+result);
+}
+}
+
+
