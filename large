@@ -1,0 +1,9 @@
+public class Large{
+public static void main(String args[])
+{
+int a=50,b=60,c=80,temp,result;
+temp=a>b ? a:b;
+result=c>temp ? c:temp;
+System.out.println("largest num is:"+result);
+}
+}
